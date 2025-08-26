@@ -22,8 +22,6 @@ class RoundButton(tk.Canvas):
 
         # Bind click events
         self.bind("<Button-1>", self._on_click)
-        self.tag_bind(self.circle, "<Button-1>", self._on_click)
-        self.tag_bind(self.text, "<Button-1>", self._on_click)
 
     def _on_click(self, event):
         if self.command:
