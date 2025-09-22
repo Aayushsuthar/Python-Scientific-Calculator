@@ -12,7 +12,7 @@ A Python Tkinter-based scientific calculator with a modern GUI and round buttons
 - Ans recall and random number generation
 - Custom round buttons and modern GUI
 - Error handling for invalid inputs
-- 
+  
 ## Requirements
 Python 3.x
 Tkinter (pre-installed)
